@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Wiki search</title>
+  <title>Unix Timestamp Microservice</title>
 
 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
@@ -18,22 +18,23 @@
   <header class="container">
     <div class="row">
       <div class="col-12">
-        <h1><span class="display-4">API-Unix Timestamp</span></h1>
+        <h2><span class="display-4">API - Unix Timestamp Microservice</span></h2>
       </div>
     </div>
   </header>
   <div class="jumbotron">
     <div class="container">
       <div class="row">
-        <div class="xs-col-8">
-          <p>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</p>
+        <div class="xs-col-6 story">
+          <h2><span class="display-5">Features</span></h2>
+          <p>Pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</p>
           <hr class="my-1">
           <p>If it does, it returns both the Unix timestamp and the natural language form of that date.</p>
           <hr class="my-1">
           <p>If it does not contain a date or Unix timestamp, it returns null for those properties.</p>
           <hr class="my-1">
         </div>
-        <div class="xs-col-4 time">
+        <div class="xs-col-6 time">
           <h2 class="text-center"><span class="display-5">Current Unix Time</span></h2>
           <div class="lead text-center"></div>
           <hr class="my-4">
@@ -45,14 +46,24 @@
     <div class="row">
       <div class="col-6">
         <h2>Example Usage:</h2>
-        <p style="background-color:hsl(15, 51%, 73%);">https://unix-date-timestamp.herokuapp.com/December%2015,%202015</p>
-        <p style="background-color:hsl(15, 51%, 73%);">https://unix-date-timestamp.herokuapp.com/December%2015,%202015</p>
+        <p class="sample1" style="background-color:hsl(15, 51%, 73%);">https://unix-date-timestamp.herokuapp.com/Aug%2005,%202017</p>
+        <p class="sample2" style="background-color:hsl(15, 51%, 73%);">https://unix-date-timestamp.herokuapp.com/1501905600</p>
       </div>
     </div>
     <div class="row">
       <div class="col-6">
         <h2>Example output:</h2>
-        <p style="background-color:hsl(15, 51%, 73%);">{ "Unix": 1450137600, "Natural": "December 15, 2015" }</p>
+        <p  class="sample3" style="background-color:hsl(15, 51%, 73%);">{ "Unix": 1501905600, "Natural": "Aug 05, 2017" }</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!--Footer Bottom-->
+          <p class="text-xs-center"><a href="https://github.com/jtCodes">&copy; jtCodes</a></p>
+        </div>
       </div>
     </div>
   </div>
