@@ -1,0 +1,14 @@
+body {
+  background: #eee;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  border-radius: 5px;
+  width: 500px;
+}
+
+.jumbotron {
+  background-color: grey;
+}
